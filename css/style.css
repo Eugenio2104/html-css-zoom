@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 1px solid red;
+}
+
+.container{
+  padding: 20px 50px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header{
@@ -46,7 +54,15 @@ button{
 
 /*main*/
 
+img{
+ max-width: 100%;
+}
 
+.photo{
+  width: calc(100% / 5);
+  padding: 5px 5px;
+  min-width: 20vh
+}
 /*footer*/
 footer nav{
   display: flex;
@@ -58,6 +74,7 @@ footer ul{
   display: flex;
   justify-content: space-between;
   list-style: none;
+  cursor: pointer;
 
 }
 
@@ -69,3 +86,5 @@ footer ul li{
 .fa-chevron-up{
   font-size: 0.5rem;
 }
+
+
