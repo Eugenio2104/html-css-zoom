@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+}
+
+main{
+  height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+footer{
+  height: 60px;
+  background-color: #222222;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li{
+  margin-right: 5px;
+}
+
+button{
+  padding: 5px 5px;
+  background-color: #4A4A4A;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
