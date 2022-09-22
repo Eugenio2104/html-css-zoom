@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 
 .container{
@@ -48,7 +48,7 @@ button{
   cursor: pointer;
 }
 
-.fa-table-cells{
+.fa-table-cells, .fa-microphone-slash{
   padding-right: 5px;
 }
 
@@ -61,7 +61,19 @@ img{
 .photo{
   width: calc(100% / 5);
   padding: 5px 5px;
-  min-width: 20vh
+  min-width: 30vh;
+  position: relative;
+}
+.photo .photo-badge .badge{
+  position: absolute;
+}
+.photo-badge .badge{
+  padding: 5px 10px;
+  bottom: 8px;
+  left: 5px;
+  font-size: 1rem;
+  background-color: rgba(237, 231, 225, .5);
+  color: white;
 }
 /*footer*/
 footer nav{
@@ -83,7 +95,7 @@ footer ul li{
   padding: 15px;
 }
 
-.fa-chevron-up{
+.fa-chevron-up {
   font-size: 0.5rem;
 }
 
