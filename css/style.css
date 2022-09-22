@@ -100,3 +100,6 @@ footer ul li{
 }
 
 
+.active:active{
+  color: greenyellow;
+}
